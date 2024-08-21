@@ -40,8 +40,6 @@ Clear-Host
 Write-Host "Start"
 
 Set-Location $PSScriptRoot
-
-##################################################################################################################
 ##################################################################################################################
 function Get-SCCMSiteCode {
     try {
@@ -119,7 +117,6 @@ if ((Get-PSDrive -Name $SiteCode -PSProvider CMSite -ErrorAction SilentlyContinu
 }
 # Set the current location to be the site code.
 # Set-Location "$($SiteCode):\" @initParams
-##################################################################################################################
 ##################################################################################################################
 function Set-CMProgramOSPlatform {
     param (
