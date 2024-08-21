@@ -1,2 +1,2 @@
 # Update-PCXCMPacakgeOSRequiremnet
-MS CM Pakcage OS requiremnet update
+MS CM Package OS requirement update
