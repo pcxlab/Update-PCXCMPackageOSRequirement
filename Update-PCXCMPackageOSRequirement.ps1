@@ -37,8 +37,6 @@
 
 Clear-Host
 
-Write-Host "Start"
-
 Set-Location $PSScriptRoot
 ##################################################################################################################
 function Get-SCCMSiteCode {
